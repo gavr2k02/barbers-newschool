@@ -1,0 +1,37 @@
+.teacher-block {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -24px;
+    flex-direction: row;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    justify-content: space-around;
+}
+
+.teacher-block-text {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 512px;
+    margin-top: 12px;
+
+}
+
+.teacher-img {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 512px;
+    margin-top: 12px;
+}
+
+.teacher-title {
+    display: flex;
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+margin-bottom: 1.5rem!important;

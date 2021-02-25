@@ -1,0 +1,110 @@
+.courses-block {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -24px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: rgb(255, 255, 255);
+}
+
+.block-2 {
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 340px;
+    margin-top: 48px;
+}
+
+#circle-redmin {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: rgb(236, 106, 94);
+}
+
+#circle-yellowmin {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: rgb(244, 191, 79);
+}
+
+#circle-greenmin {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: rgb(97, 197, 85);
+}
+
+.text-title-1 {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-title-1 h3 {
+    margin-top: 3px;
+}
+
+.courses-title-2 {
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.courses-list {
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+#h2-white {
+    color:rgb(255, 255, 255);
+}
+
+.hidden {
+    display: none;
+}
+
+.text-block-subtext {
+  
+}
+
+.a-title {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color: rgb(97, 197, 85);
+}
+
+#greentxt {
+    color: rgb(97, 197, 85);
+}
+
+#yellowtxt {
+    color: rgb(244, 191, 79);
+}
+
+#redtxt {
+    color: rgb(236, 106, 94);
+}
+
+#redblock {
+    border: rgb(236, 106, 94) solid 1px;
+}
+
+#yellowblock {
+    border: rgb(244, 191, 79) solid 1px;
+}
+
+#greenblock {
+    border: rgb(97, 197, 85) solid 1px;
+}

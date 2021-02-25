@@ -1,0 +1,64 @@
+h2 {
+    margin-top: 0;
+    margin-bottom: 30pxpx;
+    color: #000;
+    font-size: 48px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+.average-count {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.block-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.payment {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #1f222e;
+    font-size: 48px;
+}
+
+
+.advantages-row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    border-bottom: 2px solid rgb(244, 191, 79);
+}
+
+.proffesion-title {
+    margin-right: 24px;
+    color: black;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+.proffesion-comment {
+    margin-left: auto;
+    font-size: 24px;
+    font-weight: 600;
+    color: #1f222e;
+}

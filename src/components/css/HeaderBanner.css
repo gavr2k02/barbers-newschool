@@ -1,0 +1,14 @@
+.banner-desktop {
+    margin-top: 85px;
+    position: relative;
+    text-align: center;
+    color: #000;
+    width: auto;
+    height: auto;
+}
+
+.banner-desktop img {
+    width: 100%;
+    height: 100%;
+}
+

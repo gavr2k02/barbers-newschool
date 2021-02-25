@@ -1,0 +1,26 @@
+.learn-block {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -24px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: rgb(255, 255, 255);
+}
+
+.block-3 {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 340px;
+    margin-top: 12px;
+}
+
+.icon {
+    width: 256px;
+    height: auto;
+}
+
+#titlelearn {
+    margin-top: 0;
+}

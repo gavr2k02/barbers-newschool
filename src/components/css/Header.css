@@ -1,0 +1,49 @@
+.navbar-desktop {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: auto;
+    z-index: 99;
+    display: block;
+    background-color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1);
+}
+
+.nav-container {
+    display: flex;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.logos {
+    margin-bottom: 6px;
+}
+.nav-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.menu-point {
+    display: flex;
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.nav-menu a.menu-point:hover {
+    color: rgb(244, 191, 79);;
+ }
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
