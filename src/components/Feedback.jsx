@@ -23,7 +23,7 @@ class Feedback extends Component {
         return (
           <AnimationOnScroll animateIn="animate__fadeInUp">
 
-          <div className="feedback-form">
+          <div className="feedback-form" id="feedback-link">
           
               <form onSubmit={sendEmail}>
                   <h3 className="form-title">Запишитесь прямо сейчас</h3>
